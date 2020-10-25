@@ -24,6 +24,8 @@ public class Employee {
 	@Column(name = "email_id")
 	private String emailId;
 	
+	private String address;
+	
 	public Employee() {
 		super();
 	}
