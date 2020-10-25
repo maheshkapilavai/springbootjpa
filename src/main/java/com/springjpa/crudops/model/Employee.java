@@ -24,6 +24,8 @@ public class Employee {
 	@Column(name = "email_id")
 	private String emailId;
 	
+	private String address;
+	
 	public Employee() {
 		super();
 	}
@@ -58,6 +60,14 @@ public class Employee {
 	}
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 }
